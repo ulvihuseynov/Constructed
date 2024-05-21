@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+@media (max-width:468px) {
+    .img-box{
+        background-size: c ;
+        /* width: 100vw !important; */
+        height: 350px ;
+    
+    } 
+    .content-box{
+        height: 50vh ;
+       
+     padding: 0px ;
+        
+    }
+   
+    .watch-btn .project-btn a,.play-btn  {
+      font-size: 12px;
+    }
+    .watch-btn .project-btn{
+     padding: 6px ;
+    }
+    .services-box{
+
+        gap: 10px;
+        padding: 20px 0;
+       }
+       .project-item{
+
+        padding:1px;
+      }
+      .p-20px{
+        padding: 0px;
+      }
+      .comitted-box .info-commit{
+        margin-bottom: 40px;
+        
+        }
+        .provide-box,.social-links{
+            padding-bottom: 30px;
+        }
+        .navigation-list:nth-child(1){
+            padding-bottom: 20px;
+        }
+      
+}
+
+@media (min-width:468px) and (max-width:992px) {
+    .img-box{
+        background-size: cover ;
+        /* width: 100vw !important; */
+        height: 60vh ;
+    
+    } 
+    .content-box{
+        height: 50vh ;
+      
+    }
+    .comitted-box .info-commit{
+        margin-bottom: 40px;
+        
+        }
+        .provide-box,.social-links{
+            padding-bottom: 30px;
+        }
+        .navigation-list:nth-child(1){
+            padding-bottom: 20px;
+        }
+      
+    }
